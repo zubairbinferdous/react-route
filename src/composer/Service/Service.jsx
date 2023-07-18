@@ -1,0 +1,12 @@
+/* eslint-disable no-unused-vars */
+import React from 'react';
+
+const Service = () => {
+    return (
+        <div>
+            <h1>this is the service pages</h1>
+        </div>
+    );
+};
+
+export default Service;
