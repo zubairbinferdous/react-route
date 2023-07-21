@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  padding: 0px 10px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

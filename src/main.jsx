@@ -19,6 +19,7 @@ const router = createBrowserRouter([
       {
         path: "/service",
         element: <Service></Service>,
+        loader: () => fetch('https://restcountries.com/v3.1/all'),
       },
       {
         path: "/about",

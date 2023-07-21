@@ -6,7 +6,6 @@ import Header from './composer/Header/Header'
 function App() {
   return (
     <>
-      <h1>this is the code site </h1>
       <Header></Header>
       <Outlet></Outlet>
     </>
